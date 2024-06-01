@@ -19,7 +19,7 @@ NOTE: If you are having issues with permissions. And you get error:
 
 \copy job_postings_fact FROM 'C:\Users\link\Downloads\csv_files\job_postings_fact.csv' WITH (FORMAT csv, HEADER true, DELIMITER ',', ENCODING 'UTF8');
 
-\copy skills_job_dim FROM 'C:\Users\link\Downloads\csv_files\skills_job_dim.csv' WITH (FORMAT csv, HEADER true, DELIMITER ',', ENCODING 'UTF8');
+\copy skills_job_dim FROM 'D:\sql_project_Data_Analysis\csv_files\skills_job_dim.csv' WITH (FORMAT csv, HEADER true, DELIMITER ',', ENCODING 'UTF8');
 
 */
 SELECT *
