@@ -1,3 +1,4 @@
+--The most optimal skills
 WITH skills_damand AS(
     SELECT 
         skills_dim.skill_id,
